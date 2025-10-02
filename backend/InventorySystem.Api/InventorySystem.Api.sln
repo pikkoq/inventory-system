@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventorySystem.Api", "InventorySystem.Api\InventorySystem.Api.csproj", "{297D28F3-3AF7-4FA7-BB8E-A0974B9C8325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventorySystem.Tests", "InventorySystem.Tests\InventorySystem.Tests.csproj", "{9E37884F-D012-486A-9567-6B11DDD668E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{297D28F3-3AF7-4FA7-BB8E-A0974B9C8325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297D28F3-3AF7-4FA7-BB8E-A0974B9C8325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297D28F3-3AF7-4FA7-BB8E-A0974B9C8325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297D28F3-3AF7-4FA7-BB8E-A0974B9C8325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E37884F-D012-486A-9567-6B11DDD668E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E37884F-D012-486A-9567-6B11DDD668E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E37884F-D012-486A-9567-6B11DDD668E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E37884F-D012-486A-9567-6B11DDD668E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

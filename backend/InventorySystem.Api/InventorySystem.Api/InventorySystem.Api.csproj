@@ -18,11 +18,18 @@
         </PackageReference>
         <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
         <PackageReference Include="Scalar.AspNetCore" Version="2.8.8" />
+        <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
         <PackageReference Include="SixLabors.ImageSharp" Version="3.1.11" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
+      <Folder Include="Modules\Analytics\" />
+      <Folder Include="Modules\Identity\" />
+      <Folder Include="Modules\PointOfSale\" />
+      <Folder Include="Modules\Shop\" />
+      <Folder Include="Modules\Warehouse\" />
+      <Folder Include="Shared\" />
     </ItemGroup>
 
 </Project>

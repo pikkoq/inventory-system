@@ -29,7 +29,9 @@
       <Folder Include="Modules\PointOfSale\" />
       <Folder Include="Modules\Shop\" />
       <Folder Include="Modules\Warehouse\" />
-      <Folder Include="Shared\" />
+      <Folder Include="Shared\Common\" />
+      <Folder Include="Shared\Helpers\" />
+      <Folder Include="Shared\Middleware\" />
     </ItemGroup>
 
 </Project>
